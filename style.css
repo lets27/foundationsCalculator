@@ -1,0 +1,55 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100vw;
+    height: 100vh;
+}
+
+
+.firstRow{
+    display: flex;
+    justify-content:space-between;
+}
+
+.screen{
+    display: flex;
+    flex-direction: row;
+    border:1px solid green;
+    width:170px;
+}
+.clearButton{
+    display: flex;
+    width:50px;
+    height: 50px; 
+    margin-right: 10px;
+    font-size: 40px;
+}
+.otherRows{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+
+.number{
+    display: flex;
+    margin-left: 5px;
+   width:50px;
+   height: 50px;
+   font-size: 40px;
+}
+.operator{
+    display: flex;
+    width:50px;
+    height: 50px; 
+    margin-left: 5px;
+    font-size: 40px;
+}
+.previous{
+    font-size: 20px;   
+}
+.current{
+    font-size: 20px;  
+}
+
